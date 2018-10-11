@@ -1,0 +1,1414 @@
+2018-10-09 14:00:31,903:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 14:00:31,903:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 14:00:31,903:apscheduler.scheduler:Scheduler started
+2018-10-09 14:00:31,903:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:00:31,904:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:01:31.903018+05:30 (in 59.998275 seconds)
+2018-10-09 14:00:31,916:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 14:00:31,917:werkzeug: * Restarting with stat
+2018-10-09 14:00:32,540:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 14:00:32,541:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 14:00:32,541:apscheduler.scheduler:Scheduler started
+2018-10-09 14:00:32,541:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:00:32,542:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:01:32.540657+05:30 (in 59.998395 seconds)
+2018-10-09 14:00:32,553:werkzeug: * Debugger is active!
+2018-10-09 14:00:32,553:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 14:00:54,634:werkzeug:127.0.0.1 - - [09/Oct/2018 14:00:54] "GET /apidocs/ HTTP/1.1" 200 -
+2018-10-09 14:00:55,101:werkzeug:127.0.0.1 - - [09/Oct/2018 14:00:55] "GET /apispec_1.json HTTP/1.1" 200 -
+2018-10-09 14:01:04,121:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:06,820:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-6 HTTP/1.1" 301 257
+2018-10-09 14:01:07,945:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-6/ HTTP/1.1" 200 24647
+2018-10-09 14:01:08,403:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:13,577:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-presser-299506.html HTTP/1.1" 200 None
+2018-10-09 14:01:13,927:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:16,854:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/sacked-employee-jet-lay-off-jet-protest-jet-employees-sot-jet-statement-299497.html HTTP/1.1" 200 None
+2018-10-09 14:01:16,998:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:19,821:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/jet-lay-off-jet-crew-laid-off-299471.html HTTP/1.1" 200 32691
+2018-10-09 14:01:20,208:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:23,894:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/layoffs-to-cost-yahoo-about-rs-100-crore-283154.html HTTP/1.1" 200 None
+2018-10-09 14:01:24,262:werkzeug:127.0.0.1 - - [09/Oct/2018 14:01:24] "GET /api/v1/news18/get_news?page=6 HTTP/1.1" 200 -
+2018-10-09 14:01:24,266:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:27,092:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-6 HTTP/1.1" 301 257
+2018-10-09 14:01:28,631:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-6/ HTTP/1.1" 200 24870
+2018-10-09 14:01:29,065:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:31,904:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:01:31,908:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:01:31 IST)" (scheduled at 2018-10-09 14:01:31.903018+05:30)
+2018-10-09 14:01:31,910:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:02:31.903018+05:30 (in 59.997371 seconds)
+2018-10-09 14:01:31,919:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:02:31 IST)" executed successfully
+2018-10-09 14:01:32,541:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:01:32,543:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:01:32 IST)" (scheduled at 2018-10-09 14:01:32.540657+05:30)
+2018-10-09 14:01:32,544:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:02:32.540657+05:30 (in 59.998858 seconds)
+2018-10-09 14:01:32,548:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:02:32 IST)" executed successfully
+2018-10-09 14:01:33,347:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-presser-299506.html HTTP/1.1" 200 48944
+2018-10-09 14:01:34,026:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:36,723:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/sacked-employee-jet-lay-off-jet-protest-jet-employees-sot-jet-statement-299497.html HTTP/1.1" 200 33752
+2018-10-09 14:01:36,784:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:39,388:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/jet-lay-off-jet-crew-laid-off-299471.html HTTP/1.1" 200 32691
+2018-10-09 14:01:39,479:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:01:44,205:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/layoffs-to-cost-yahoo-about-rs-100-crore-283154.html HTTP/1.1" 200 None
+2018-10-09 14:01:44,550:werkzeug:127.0.0.1 - - [09/Oct/2018 14:01:44] "GET /api/v1/news18/get_news?page=6 HTTP/1.1" 200 -
+2018-10-09 14:02:31,914:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:02:31,916:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:02:31 IST)" (scheduled at 2018-10-09 14:02:31.903018+05:30)
+2018-10-09 14:02:31,917:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:03:31.903018+05:30 (in 59.988334 seconds)
+2018-10-09 14:02:31,922:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:03:31 IST)" executed successfully
+2018-10-09 14:02:32,546:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:02:32,547:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:02:32 IST)" (scheduled at 2018-10-09 14:02:32.540657+05:30)
+2018-10-09 14:02:32,549:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:03:32.540657+05:30 (in 59.993721 seconds)
+2018-10-09 14:02:32,552:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:03:32 IST)" executed successfully
+2018-10-09 14:03:31,908:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:03:31,910:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:03:31 IST)" (scheduled at 2018-10-09 14:03:31.903018+05:30)
+2018-10-09 14:03:31,911:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:04:31.903018+05:30 (in 59.993846 seconds)
+2018-10-09 14:03:31,915:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:04:31 IST)" executed successfully
+2018-10-09 14:03:32,545:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:03:32,547:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:03:32 IST)" (scheduled at 2018-10-09 14:03:32.540657+05:30)
+2018-10-09 14:03:32,550:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:04:32.540657+05:30 (in 59.994526 seconds)
+2018-10-09 14:03:32,552:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:04:32 IST)" executed successfully
+2018-10-09 14:04:24,350:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 14:04:24,833:werkzeug: * Restarting with stat
+2018-10-09 14:04:25,478:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 14:04:25,479:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 14:04:25,479:apscheduler.scheduler:Scheduler started
+2018-10-09 14:04:25,479:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:04:25,479:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:05:25.478696+05:30 (in 59.998939 seconds)
+2018-10-09 14:04:25,492:werkzeug: * Debugger is active!
+2018-10-09 14:04:25,492:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 14:04:31,909:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:04:31,912:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:04:31 IST)" (scheduled at 2018-10-09 14:04:31.903018+05:30)
+2018-10-09 14:04:31,915:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:05:31.903018+05:30 (in 59.992924 seconds)
+2018-10-09 14:04:31,918:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:05:31 IST)" executed successfully
+2018-10-09 14:05:25,479:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:05:25,481:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:05:25 IST)" (scheduled at 2018-10-09 14:05:25.478696+05:30)
+2018-10-09 14:05:25,484:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:06:25.478696+05:30 (in 59.998655 seconds)
+2018-10-09 14:05:25,487:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:06:25 IST)" executed successfully
+2018-10-09 14:05:31,910:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:05:31,911:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:05:31 IST)" (scheduled at 2018-10-09 14:05:31.903018+05:30)
+2018-10-09 14:05:31,912:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:06:31.903018+05:30 (in 59.992062 seconds)
+2018-10-09 14:05:31,913:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:06:31 IST)" executed successfully
+2018-10-09 14:06:25,483:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:06:25,485:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:06:25 IST)" (scheduled at 2018-10-09 14:06:25.478696+05:30)
+2018-10-09 14:06:25,488:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:07:25.478696+05:30 (in 59.994184 seconds)
+2018-10-09 14:06:25,491:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:07:25 IST)" executed successfully
+2018-10-09 14:06:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:06:31,907:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:06:31 IST)" (scheduled at 2018-10-09 14:06:31.903018+05:30)
+2018-10-09 14:06:31,909:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:07:31.903018+05:30 (in 59.997235 seconds)
+2018-10-09 14:06:31,912:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:07:31 IST)" executed successfully
+2018-10-09 14:07:25,483:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:07:25,484:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:07:25 IST)" (scheduled at 2018-10-09 14:07:25.478696+05:30)
+2018-10-09 14:07:25,484:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:08:25.478696+05:30 (in 59.994935 seconds)
+2018-10-09 14:07:25,485:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:08:25 IST)" executed successfully
+2018-10-09 14:07:31,907:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:07:31,909:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:07:31 IST)" (scheduled at 2018-10-09 14:07:31.903018+05:30)
+2018-10-09 14:07:31,911:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:08:31.903018+05:30 (in 59.994750 seconds)
+2018-10-09 14:07:31,914:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:08:31 IST)" executed successfully
+2018-10-09 14:08:25,480:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:08:25,481:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:08:25 IST)" (scheduled at 2018-10-09 14:08:25.478696+05:30)
+2018-10-09 14:08:25,483:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:09:25.478696+05:30 (in 59.997955 seconds)
+2018-10-09 14:08:25,486:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:09:25 IST)" executed successfully
+2018-10-09 14:08:31,908:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:08:31,909:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:08:31 IST)" (scheduled at 2018-10-09 14:08:31.903018+05:30)
+2018-10-09 14:08:31,914:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:09:31.903018+05:30 (in 59.994206 seconds)
+2018-10-09 14:08:31,915:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:09:31 IST)" executed successfully
+2018-10-09 14:08:49,945:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 14:08:50,303:werkzeug: * Restarting with stat
+2018-10-09 14:08:50,988:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 14:08:50,989:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 14:08:50,989:apscheduler.scheduler:Scheduler started
+2018-10-09 14:08:50,989:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:08:50,989:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:09:50.988483+05:30 (in 59.998677 seconds)
+2018-10-09 14:08:51,009:werkzeug: * Debugger is active!
+2018-10-09 14:08:51,010:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 14:09:31,909:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:09:31,912:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:09:31 IST)" (scheduled at 2018-10-09 14:09:31.903018+05:30)
+2018-10-09 14:09:31,916:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:10:31.903018+05:30 (in 59.992589 seconds)
+2018-10-09 14:09:31,918:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:10:31 IST)" executed successfully
+2018-10-09 14:09:50,989:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:09:50,992:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:09:50 IST)" (scheduled at 2018-10-09 14:09:50.988483+05:30)
+2018-10-09 14:09:50,994:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:10:50.988483+05:30 (in 59.998168 seconds)
+2018-10-09 14:09:51,002:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:10:50 IST)" executed successfully
+2018-10-09 14:10:05,226:werkzeug: * Detected change in '/home/admin/news18_api/run.py', reloading
+2018-10-09 14:10:05,561:werkzeug: * Restarting with stat
+2018-10-09 14:10:06,238:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 14:10:06,239:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 14:10:06,239:apscheduler.scheduler:Scheduler started
+2018-10-09 14:10:06,239:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:10:06,240:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:12:06.238425+05:30 (in 119.998168 seconds)
+2018-10-09 14:10:06,252:werkzeug: * Debugger is active!
+2018-10-09 14:10:06,252:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 14:10:31,911:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:10:31,914:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:10:31 IST)" (scheduled at 2018-10-09 14:10:31.903018+05:30)
+2018-10-09 14:10:31,917:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:11:31.903018+05:30 (in 59.990253 seconds)
+2018-10-09 14:10:31,920:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:11:31 IST)" executed successfully
+2018-10-09 14:11:21,079:werkzeug:127.0.0.1 - - [09/Oct/2018 14:11:21] "GET /apidocs/ HTTP/1.1" 200 -
+2018-10-09 14:11:22,158:werkzeug:127.0.0.1 - - [09/Oct/2018 14:11:22] "GET /apispec_1.json HTTP/1.1" 200 -
+2018-10-09 14:11:29,946:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:11:31,910:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:11:31,911:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:12:31.903018+05:30 (in 59.992328 seconds)
+2018-10-09 14:11:31,912:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:12:31 IST)" (scheduled at 2018-10-09 14:11:31.903018+05:30)
+2018-10-09 14:11:31,915:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:12:31 IST)" executed successfully
+2018-10-09 14:11:33,042:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-6 HTTP/1.1" 301 257
+2018-10-09 14:11:34,274:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-6/ HTTP/1.1" 200 24882
+2018-10-09 14:11:34,700:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:11:39,089:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-presser-299506.html HTTP/1.1" 200 None
+2018-10-09 14:11:39,486:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:11:43,796:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/sacked-employee-jet-lay-off-jet-protest-jet-employees-sot-jet-statement-299497.html HTTP/1.1" 200 31309
+2018-10-09 14:11:44,204:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:11:47,382:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/jet-lay-off-jet-crew-laid-off-299471.html HTTP/1.1" 200 None
+2018-10-09 14:11:47,810:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:11:53,116:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/layoffs-to-cost-yahoo-about-rs-100-crore-283154.html HTTP/1.1" 200 None
+2018-10-09 14:11:53,487:werkzeug:127.0.0.1 - - [09/Oct/2018 14:11:53] "GET /api/v1/news18/get_news?page=6 HTTP/1.1" 200 -
+2018-10-09 14:12:06,239:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:12:06,241:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:12:06 IST)" (scheduled at 2018-10-09 14:12:06.238425+05:30)
+2018-10-09 14:12:06,242:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:14:06.238425+05:30 (in 119.998695 seconds)
+2018-10-09 14:12:06,247:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:14:06 IST)" executed successfully
+2018-10-09 14:12:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:12:31,907:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:13:31.903018+05:30 (in 59.997015 seconds)
+2018-10-09 14:12:31,907:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:13:31 IST)" (scheduled at 2018-10-09 14:12:31.903018+05:30)
+2018-10-09 14:12:31,912:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:13:31 IST)" executed successfully
+2018-10-09 14:13:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:13:31,906:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:14:31.903018+05:30 (in 59.997039 seconds)
+2018-10-09 14:13:31,907:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:14:31 IST)" (scheduled at 2018-10-09 14:13:31.903018+05:30)
+2018-10-09 14:13:31,910:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:14:31 IST)" executed successfully
+2018-10-09 14:14:06,244:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:14:06,246:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:14:06 IST)" (scheduled at 2018-10-09 14:14:06.238425+05:30)
+2018-10-09 14:14:06,250:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:14:06 IST)" executed successfully
+2018-10-09 14:14:06,251:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:16:06.238425+05:30 (in 119.993074 seconds)
+2018-10-09 14:14:31,904:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:14:31,904:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:15:31.903018+05:30 (in 59.998418 seconds)
+2018-10-09 14:14:31,905:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:15:31 IST)" (scheduled at 2018-10-09 14:14:31.903018+05:30)
+2018-10-09 14:14:31,906:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:15:31 IST)" executed successfully
+2018-10-09 14:15:31,903:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:15:31,905:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:16:31.903018+05:30 (in 59.998436 seconds)
+2018-10-09 14:15:31,906:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:16:31 IST)" (scheduled at 2018-10-09 14:15:31.903018+05:30)
+2018-10-09 14:15:31,910:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:16:31 IST)" executed successfully
+2018-10-09 14:16:06,245:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:16:06,247:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:16:06 IST)" (scheduled at 2018-10-09 14:16:06.238425+05:30)
+2018-10-09 14:16:06,250:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:18:06.238425+05:30 (in 119.992441 seconds)
+2018-10-09 14:16:06,251:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:18:06 IST)" executed successfully
+2018-10-09 14:16:31,904:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:16:31,906:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:17:31.903018+05:30 (in 59.997645 seconds)
+2018-10-09 14:16:31,907:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:17:31 IST)" (scheduled at 2018-10-09 14:16:31.903018+05:30)
+2018-10-09 14:16:31,910:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:17:31 IST)" executed successfully
+2018-10-09 14:17:31,904:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:17:31,904:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:18:31.903018+05:30 (in 59.998297 seconds)
+2018-10-09 14:17:31,905:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:18:31 IST)" (scheduled at 2018-10-09 14:17:31.903018+05:30)
+2018-10-09 14:17:31,906:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:18:31 IST)" executed successfully
+2018-10-09 14:18:06,243:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:18:06,245:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:18:06 IST)" (scheduled at 2018-10-09 14:18:06.238425+05:30)
+2018-10-09 14:18:06,247:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:20:06.238425+05:30 (in 119.994493 seconds)
+2018-10-09 14:18:06,250:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:20:06 IST)" executed successfully
+2018-10-09 14:18:31,904:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:18:31,905:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:19:31.903018+05:30 (in 59.998118 seconds)
+2018-10-09 14:18:31,906:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:19:31 IST)" (scheduled at 2018-10-09 14:18:31.903018+05:30)
+2018-10-09 14:18:31,910:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:19:31 IST)" executed successfully
+2018-10-09 14:19:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:19:31,907:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:20:31.903018+05:30 (in 59.996675 seconds)
+2018-10-09 14:19:31,908:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:20:31 IST)" (scheduled at 2018-10-09 14:19:31.903018+05:30)
+2018-10-09 14:19:31,912:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:20:31 IST)" executed successfully
+2018-10-09 14:20:06,243:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:20:06,245:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:20:06 IST)" (scheduled at 2018-10-09 14:20:06.238425+05:30)
+2018-10-09 14:20:06,246:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:22:06.238425+05:30 (in 119.994916 seconds)
+2018-10-09 14:20:06,251:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:22:06 IST)" executed successfully
+2018-10-09 14:20:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:20:31,907:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:21:31.903018+05:30 (in 59.997150 seconds)
+2018-10-09 14:20:31,908:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:21:31 IST)" (scheduled at 2018-10-09 14:20:31.903018+05:30)
+2018-10-09 14:20:31,912:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:21:31 IST)" executed successfully
+2018-10-09 14:21:31,906:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:21:31,907:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:22:31.903018+05:30 (in 59.996149 seconds)
+2018-10-09 14:21:31,908:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:22:31 IST)" (scheduled at 2018-10-09 14:21:31.903018+05:30)
+2018-10-09 14:21:31,912:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:22:31 IST)" executed successfully
+2018-10-09 14:22:06,245:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:22:06,247:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:22:06 IST)" (scheduled at 2018-10-09 14:22:06.238425+05:30)
+2018-10-09 14:22:06,251:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:24:06.238425+05:30 (in 119.991923 seconds)
+2018-10-09 14:22:06,253:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:24:06 IST)" executed successfully
+2018-10-09 14:22:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:22:31,907:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:23:31.903018+05:30 (in 59.996869 seconds)
+2018-10-09 14:22:31,908:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:23:31 IST)" (scheduled at 2018-10-09 14:22:31.903018+05:30)
+2018-10-09 14:22:31,913:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:23:31 IST)" executed successfully
+2018-10-09 14:23:31,904:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:23:31,906:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:24:31.903018+05:30 (in 59.997477 seconds)
+2018-10-09 14:23:31,907:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:24:31 IST)" (scheduled at 2018-10-09 14:23:31.903018+05:30)
+2018-10-09 14:23:31,911:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:24:31 IST)" executed successfully
+2018-10-09 14:24:06,244:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:24:06,246:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:24:06 IST)" (scheduled at 2018-10-09 14:24:06.238425+05:30)
+2018-10-09 14:24:06,248:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:26:06.238425+05:30 (in 119.993276 seconds)
+2018-10-09 14:24:06,250:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:26:06 IST)" executed successfully
+2018-10-09 14:24:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:24:31,906:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:25:31.903018+05:30 (in 59.997365 seconds)
+2018-10-09 14:24:31,907:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:25:31 IST)" (scheduled at 2018-10-09 14:24:31.903018+05:30)
+2018-10-09 14:24:31,912:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:25:31 IST)" executed successfully
+2018-10-09 14:25:31,906:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:25:31,907:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:26:31.903018+05:30 (in 59.996513 seconds)
+2018-10-09 14:25:31,908:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:26:31 IST)" (scheduled at 2018-10-09 14:25:31.903018+05:30)
+2018-10-09 14:25:31,912:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:26:31 IST)" executed successfully
+2018-10-09 14:26:06,242:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:26:06,244:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:26:06 IST)" (scheduled at 2018-10-09 14:26:06.238425+05:30)
+2018-10-09 14:26:06,246:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:28:06.238425+05:30 (in 119.995119 seconds)
+2018-10-09 14:26:06,249:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:28:06 IST)" executed successfully
+2018-10-09 14:26:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:26:31,907:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:27:31.903018+05:30 (in 59.997038 seconds)
+2018-10-09 14:26:31,907:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:27:31 IST)" (scheduled at 2018-10-09 14:26:31.903018+05:30)
+2018-10-09 14:26:31,911:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:27:31 IST)" executed successfully
+2018-10-09 14:27:31,905:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:27:31,907:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:28:31.903018+05:30 (in 59.996925 seconds)
+2018-10-09 14:27:31,907:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:28:31 IST)" (scheduled at 2018-10-09 14:27:31.903018+05:30)
+2018-10-09 14:27:31,911:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:01:00], next run at: 2018-10-09 14:28:31 IST)" executed successfully
+2018-10-09 14:28:06,242:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:28:06,244:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:28:06 IST)" (scheduled at 2018-10-09 14:28:06.238425+05:30)
+2018-10-09 14:28:06,249:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:30:06.238425+05:30 (in 119.994981 seconds)
+2018-10-09 14:28:06,249:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 14:30:06 IST)" executed successfully
+2018-10-09 14:28:17,589:werkzeug: * Detected change in '/home/admin/news18_api/run.py', reloading
+2018-10-09 14:28:19,757:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 14:28:19,758:apscheduler.scheduler:Added job "news18_iterator" to job store "default"
+2018-10-09 14:28:19,758:apscheduler.scheduler:Scheduler started
+2018-10-09 14:28:19,758:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:28:19,759:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:30:19.757410+05:30 (in 119.998198 seconds)
+2018-10-09 14:28:19,772:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 14:28:19,773:werkzeug: * Restarting with stat
+2018-10-09 14:28:20,427:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 14:28:20,428:apscheduler.scheduler:Added job "news18_iterator" to job store "default"
+2018-10-09 14:28:20,428:apscheduler.scheduler:Scheduler started
+2018-10-09 14:28:20,428:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:28:20,429:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:30:20.427476+05:30 (in 119.998432 seconds)
+2018-10-09 14:28:20,442:werkzeug: * Debugger is active!
+2018-10-09 14:28:20,442:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 14:28:53,199:werkzeug:127.0.0.1 - - [09/Oct/2018 14:28:53] "GET /apidocs/ HTTP/1.1" 200 -
+2018-10-09 14:28:53,631:werkzeug:127.0.0.1 - - [09/Oct/2018 14:28:53] "GET /apispec_1.json HTTP/1.1" 200 -
+2018-10-09 14:29:00,546:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:03,281:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2 HTTP/1.1" 301 257
+2018-10-09 14:29:04,409:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2/ HTTP/1.1" 200 26601
+2018-10-09 14:29:04,901:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:08,509:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/cisco-to-lay-off-about-1300-employees-490142.html HTTP/1.1" 200 43525
+2018-10-09 14:29:09,197:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:14,239:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/hp-lay-offs-477137.html HTTP/1.1" 200 None
+2018-10-09 14:29:14,635:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:18,408:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-to-lay-off-2000-employees-462237.html HTTP/1.1" 200 None
+2018-10-09 14:29:18,824:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:23,330:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-may-lay-off-thousands-in-restructuring-drive-453158.html HTTP/1.1" 200 None
+2018-10-09 14:29:23,978:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:28,272:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/about-com-lays-off-staffers-hires-replacements-404710.html HTTP/1.1" 200 None
+2018-10-09 14:29:28,649:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:34,414:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/yahoo-preparing-to-lay-off-600-to-700-workers-2-354615.html HTTP/1.1" 200 None
+2018-10-09 14:29:34,889:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:39,074:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/microsoft-cuts-800-jobs-completes-layoff-plan-328009.html HTTP/1.1" 200 None
+2018-10-09 14:29:39,513:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:44,758:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/johnson-and-johnson-to-cut-8000-jobs-327951.html HTTP/1.1" 200 None
+2018-10-09 14:29:45,213:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:49,861:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/sun-micro-to-cut-3000-jobs-as-oracle-deal-delayed-327052.html HTTP/1.1" 200 None
+2018-10-09 14:29:51,617:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:29:55,916:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/british-graduate-wears-job-wanted-board-325367.html HTTP/1.1" 200 None
+2018-10-09 14:29:56,322:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:01,549:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ai-to-hire-jet-employees-316818.html HTTP/1.1" 200 None
+2018-10-09 14:30:01,931:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:05,752:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/surat-diamond-pkg-316672.html HTTP/1.1" 200 None
+2018-10-09 14:30:05,845:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:09,639:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/microsoft-to-lay-off-55-employees-in-india-315800.html HTTP/1.1" 200 None
+2018-10-09 14:30:10,213:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:13,427:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/wipro-pay-cuts-go-on-a-break-314508.html HTTP/1.1" 200 31224
+2018-10-09 14:30:13,837:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:16,714:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/hope-for-the-unemployed-313599.html HTTP/1.1" 200 32009
+2018-10-09 14:30:17,127:werkzeug:127.0.0.1 - - [09/Oct/2018 14:30:17] "GET /api/v1/news18/get_news?page=2 HTTP/1.1" 200 -
+2018-10-09 14:30:19,758:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:30:19,762:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 14:30:19 IST)" (scheduled at 2018-10-09 14:30:19.757410+05:30)
+2018-10-09 14:30:19,764:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:32:19.757410+05:30 (in 119.997944 seconds)
+2018-10-09 14:30:19,776:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:20,428:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:30:20,430:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 14:30:20 IST)" (scheduled at 2018-10-09 14:30:20.427476+05:30)
+2018-10-09 14:30:20,440:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:32:20.427476+05:30 (in 119.998743 seconds)
+2018-10-09 14:30:20,444:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:23,257:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 14:30:23,257:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 14:30:24,280:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28090
+2018-10-09 14:30:24,491:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28780
+2018-10-09 14:30:24,680:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:24,864:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:29,100:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 None
+2018-10-09 14:30:29,106:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 None
+2018-10-09 14:30:29,513:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:29,513:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:33,805:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 None
+2018-10-09 14:30:33,807:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 None
+2018-10-09 14:30:34,232:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:34,234:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:37,595:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 None
+2018-10-09 14:30:37,617:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 None
+2018-10-09 14:30:37,984:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:38,042:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:43,516:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 None
+2018-10-09 14:30:43,743:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 None
+2018-10-09 14:30:43,869:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:44,118:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:47,304:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 None
+2018-10-09 14:30:47,527:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 None
+2018-10-09 14:30:47,898:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:47,917:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:52,448:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 None
+2018-10-09 14:30:52,742:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 None
+2018-10-09 14:30:52,778:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:53,387:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:57,024:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 None
+2018-10-09 14:30:57,256:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 None
+2018-10-09 14:30:57,374:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:30:57,639:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:01,659:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 38736
+2018-10-09 14:31:01,966:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 None
+2018-10-09 14:31:02,035:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:02,327:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:05,651:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 None
+2018-10-09 14:31:05,654:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 None
+2018-10-09 14:31:06,016:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:06,016:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:09,344:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 36264
+2018-10-09 14:31:09,381:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 None
+2018-10-09 14:31:09,437:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:09,443:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:14,268:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 None
+2018-10-09 14:31:14,664:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 None
+2018-10-09 14:31:14,738:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:15,038:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:18,452:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 None
+2018-10-09 14:31:18,454:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 None
+2018-10-09 14:31:18,799:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:18,800:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:23,163:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 None
+2018-10-09 14:31:23,165:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 None
+2018-10-09 14:31:23,526:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:23,527:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:26,855:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 39222
+2018-10-09 14:31:27,059:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 None
+2018-10-09 14:31:27,204:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:27,389:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:31,764:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 None
+2018-10-09 14:31:32,201:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:32,380:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 45403
+2018-10-09 14:31:32,777:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:35,054:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1 HTTP/1.1" 301 257
+2018-10-09 14:31:35,355:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1 HTTP/1.1" 301 257
+2018-10-09 14:31:36,372:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1/ HTTP/1.1" 200 26623
+2018-10-09 14:31:36,400:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1/ HTTP/1.1" 200 27715
+2018-10-09 14:31:36,812:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:36,812:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:39,552:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 43411
+2018-10-09 14:31:39,919:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:41,287:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 None
+2018-10-09 14:31:41,658:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:42,316:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 46763
+2018-10-09 14:31:42,994:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:44,262:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 46880
+2018-10-09 14:31:44,627:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:45,594:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47315
+2018-10-09 14:31:46,251:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:48,666:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 None
+2018-10-09 14:31:49,778:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:51,428:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 None
+2018-10-09 14:31:51,794:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:54,190:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41091
+2018-10-09 14:31:54,502:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 42724
+2018-10-09 14:31:54,575:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:54,835:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:57,367:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 47271
+2018-10-09 14:31:58,285:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 None
+2018-10-09 14:31:58,686:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:31:59,326:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:03,120:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 47271
+2018-10-09 14:32:03,546:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:04,634:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 38736
+2018-10-09 14:32:05,311:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:08,122:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 38736
+2018-10-09 14:32:08,490:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:11,189:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 41843
+2018-10-09 14:32:11,559:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:15,898:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 None
+2018-10-09 14:32:16,002:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 35977
+2018-10-09 14:32:16,264:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:16,691:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:19,772:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:32:19,775:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 14:32:19 IST)" (scheduled at 2018-10-09 14:32:19.757410+05:30)
+2018-10-09 14:32:19,777:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:34:19.757410+05:30 (in 119.983930 seconds)
+2018-10-09 14:32:19,785:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:20,443:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:32:20,444:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 14:32:20 IST)" (scheduled at 2018-10-09 14:32:20.427476+05:30)
+2018-10-09 14:32:20,445:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:34:20.427476+05:30 (in 119.983880 seconds)
+2018-10-09 14:32:20,455:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:21,224:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 41306
+2018-10-09 14:32:21,597:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:21,839:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 36633
+2018-10-09 14:32:21,922:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:23,955:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 14:32:24,066:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 14:32:24,297:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 44503
+2018-10-09 14:32:24,375:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28780
+2018-10-09 14:32:24,605:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 41306
+2018-10-09 14:32:24,701:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:24,738:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:24,743:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28090
+2018-10-09 14:32:24,799:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:24,951:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:27,681:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 48078
+2018-10-09 14:32:27,741:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 44503
+2018-10-09 14:32:28,060:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:28,294:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 41890
+2018-10-09 14:32:28,382:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:28,664:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:31,060:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 None
+2018-10-09 14:32:31,441:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:31,979:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 44203
+2018-10-09 14:32:32,286:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 39222
+2018-10-09 14:32:32,659:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:32,659:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:33,928:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 41890
+2018-10-09 14:32:34,596:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:35,770:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 44203
+2018-10-09 14:32:36,139:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:36,549:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 45403
+2018-10-09 14:32:36,894:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 46880
+2018-10-09 14:32:37,253:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:37,254:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:38,222:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 39222
+2018-10-09 14:32:38,580:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:41,909:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 46763
+2018-10-09 14:32:42,062:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47315
+2018-10-09 14:32:42,285:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:42,750:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:43,213:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-lays-off-dozens-of-us-sales-staff-report-638090.html HTTP/1.1" 200 None
+2018-10-09 14:32:43,607:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:43,706:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 45113
+2018-10-09 14:32:44,481:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:46,381:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41091
+2018-10-09 14:32:46,618:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47315
+2018-10-09 14:32:46,714:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:47,284:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2 HTTP/1.1" 301 257
+2018-10-09 14:32:47,287:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:48,462:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2/ HTTP/1.1" 200 26881
+2018-10-09 14:32:48,885:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:49,077:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-lays-off-dozens-of-us-sales-staff-report-638090.html HTTP/1.1" 200 None
+2018-10-09 14:32:49,456:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:51,659:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41091
+2018-10-09 14:32:52,049:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 42724
+2018-10-09 14:32:52,428:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:52,429:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:52,969:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/cisco-to-lay-off-about-1300-employees-490142.html HTTP/1.1" 200 43525
+2018-10-09 14:32:53,641:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:53,853:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2 HTTP/1.1" 301 257
+2018-10-09 14:32:54,922:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2/ HTTP/1.1" 200 25382
+2018-10-09 14:32:55,262:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:55,631:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 42724
+2018-10-09 14:32:55,962:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 47271
+2018-10-09 14:32:55,982:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:56,317:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:58,547:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/cisco-to-lay-off-about-1300-employees-490142.html HTTP/1.1" 200 43525
+2018-10-09 14:32:59,191:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:32:59,207:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/hp-lay-offs-477137.html HTTP/1.1" 200 None
+2018-10-09 14:32:59,599:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:00,960:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 38736
+2018-10-09 14:33:01,331:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:03,009:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 None
+2018-10-09 14:33:03,384:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:03,857:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/hp-lay-offs-477137.html HTTP/1.1" 200 48789
+2018-10-09 14:33:04,075:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-to-lay-off-2000-employees-462237.html HTTP/1.1" 200 44631
+2018-10-09 14:33:04,519:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:04,808:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:06,282:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 42050
+2018-10-09 14:33:06,646:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:08,660:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 38736
+2018-10-09 14:33:09,179:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-may-lay-off-thousands-in-restructuring-drive-453158.html HTTP/1.1" 200 42990
+2018-10-09 14:33:09,294:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:09,533:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:11,708:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-to-lay-off-2000-employees-462237.html HTTP/1.1" 200 None
+2018-10-09 14:33:12,046:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 35977
+2018-10-09 14:33:12,605:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:12,609:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:14,473:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/about-com-lays-off-staffers-hires-replacements-404710.html HTTP/1.1" 200 42384
+2018-10-09 14:33:14,869:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 41893
+2018-10-09 14:33:15,089:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:15,152:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-may-lay-off-thousands-in-restructuring-drive-453158.html HTTP/1.1" 200 42990
+2018-10-09 14:33:15,817:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:16,463:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:16,817:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 None
+2018-10-09 14:33:17,199:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:19,593:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 36264
+2018-10-09 14:33:19,671:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:21,421:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/yahoo-preparing-to-lay-off-600-to-700-workers-2-354615.html HTTP/1.1" 200 47747
+2018-10-09 14:33:21,528:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 44503
+2018-10-09 14:33:22,153:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:22,461:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/about-com-lays-off-staffers-hires-replacements-404710.html HTTP/1.1" 200 None
+2018-10-09 14:33:22,537:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:22,800:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:23,220:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 41306
+2018-10-09 14:33:23,959:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:25,458:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/microsoft-cuts-800-jobs-completes-layoff-plan-328009.html HTTP/1.1" 200 45160
+2018-10-09 14:33:25,788:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/yahoo-preparing-to-lay-off-600-to-700-workers-2-354615.html HTTP/1.1" 200 47747
+2018-10-09 14:33:25,800:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 41890
+2018-10-09 14:33:26,116:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:26,636:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:26,639:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:28,502:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 None
+2018-10-09 14:33:28,841:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:29,150:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 39222
+2018-10-09 14:33:29,208:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/microsoft-cuts-800-jobs-completes-layoff-plan-328009.html HTTP/1.1" 200 45160
+2018-10-09 14:33:29,482:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:29,817:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:32,801:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 45403
+2018-10-09 14:33:33,111:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/johnson-and-johnson-to-cut-8000-jobs-327951.html HTTP/1.1" 200 None
+2018-10-09 14:33:33,497:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:33,498:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/johnson-and-johnson-to-cut-8000-jobs-327951.html HTTP/1.1" 200 44943
+2018-10-09 14:33:33,537:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:34,335:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:34,470:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 None
+2018-10-09 14:33:34,785:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:36,521:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/sun-micro-to-cut-3000-jobs-as-oracle-deal-delayed-327052.html HTTP/1.1" 200 46738
+2018-10-09 14:33:36,999:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1 HTTP/1.1" 301 257
+2018-10-09 14:33:37,001:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 39222
+2018-10-09 14:33:37,174:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:37,373:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1/ HTTP/1.1" 200 27715
+2018-10-09 14:33:37,620:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:37,708:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:39,464:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/sun-micro-to-cut-3000-jobs-as-oracle-deal-delayed-327052.html HTTP/1.1" 200 None
+2018-10-09 14:33:39,832:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:41,796:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 45403
+2018-10-09 14:33:41,810:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 40010
+2018-10-09 14:33:42,071:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/british-graduate-wears-job-wanted-board-325367.html HTTP/1.1" 200 None
+2018-10-09 14:33:42,488:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:42,824:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:42,846:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:43,086:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/british-graduate-wears-job-wanted-board-325367.html HTTP/1.1" 200 47400
+2018-10-09 14:33:43,840:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:44,802:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 46763
+2018-10-09 14:33:45,444:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:45,818:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1 HTTP/1.1" 301 257
+2018-10-09 14:33:46,226:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1/ HTTP/1.1" 200 27715
+2018-10-09 14:33:46,496:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ai-to-hire-jet-employees-316818.html HTTP/1.1" 200 44675
+2018-10-09 14:33:46,607:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:46,672:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ai-to-hire-jet-employees-316818.html HTTP/1.1" 200 44675
+2018-10-09 14:33:47,023:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:47,109:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:51,155:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/surat-diamond-pkg-316672.html HTTP/1.1" 200 33682
+2018-10-09 14:33:51,362:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47315
+2018-10-09 14:33:51,537:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:51,748:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 44203
+2018-10-09 14:33:51,756:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/surat-diamond-pkg-316672.html HTTP/1.1" 200 33682
+2018-10-09 14:33:52,093:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:52,109:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:52,111:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:54,618:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/microsoft-to-lay-off-55-employees-in-india-315800.html HTTP/1.1" 200 46093
+2018-10-09 14:33:55,312:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:55,319:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/microsoft-to-lay-off-55-employees-in-india-315800.html HTTP/1.1" 200 46093
+2018-10-09 14:33:55,335:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41091
+2018-10-09 14:33:55,713:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:56,005:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:56,062:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 46880
+2018-10-09 14:33:56,433:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:58,087:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/wipro-pay-cuts-go-on-a-break-314508.html HTTP/1.1" 200 31224
+2018-10-09 14:33:58,294:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/wipro-pay-cuts-go-on-a-break-314508.html HTTP/1.1" 200 31224
+2018-10-09 14:33:58,331:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 42724
+2018-10-09 14:33:58,450:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:58,451:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:58,792:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47118
+2018-10-09 14:33:59,094:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:33:59,476:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:02,224:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41091
+2018-10-09 14:34:02,324:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/hope-for-the-unemployed-313599.html HTTP/1.1" 200 32009
+2018-10-09 14:34:02,344:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/business/hope-for-the-unemployed-313599.html HTTP/1.1" 200 32009
+2018-10-09 14:34:02,358:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 43852
+2018-10-09 14:34:02,841:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:02,841:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:02,874:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:02,926:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:05,270:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-3 HTTP/1.1" 301 257
+2018-10-09 14:34:05,366:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-3 HTTP/1.1" 301 257
+2018-10-09 14:34:05,442:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 38736
+2018-10-09 14:34:05,468:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 42476
+2018-10-09 14:34:05,507:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:05,875:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:06,438:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-3/ HTTP/1.1" 200 27280
+2018-10-09 14:34:06,514:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-3/ HTTP/1.1" 200 27663
+2018-10-09 14:34:06,919:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:06,924:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:08,133:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 41843
+2018-10-09 14:34:08,397:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 47271
+2018-10-09 14:34:08,638:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:08,719:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:11,896:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/deep-freeze-india-inc-admits-its-not-hiring-312432.html HTTP/1.1" 200 None
+2018-10-09 14:34:11,931:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/deep-freeze-india-inc-admits-its-not-hiring-312432.html HTTP/1.1" 200 None
+2018-10-09 14:34:12,540:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:12,603:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:12,659:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 35977
+2018-10-09 14:34:12,892:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:13,781:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 None
+2018-10-09 14:34:14,287:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:15,519:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 40547
+2018-10-09 14:34:15,962:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:16,863:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/google-pays-for-over-investments-to-cut-200-jobs-312322.html HTTP/1.1" 200 None
+2018-10-09 14:34:16,898:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/google-pays-for-over-investments-to-cut-200-jobs-312322.html HTTP/1.1" 200 None
+2018-10-09 14:34:17,088:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 41893
+2018-10-09 14:34:17,325:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:17,404:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:17,760:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:18,657:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 44465
+2018-10-09 14:34:18,971:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:19,762:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:34:19,762:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 14:34:19 IST)" (scheduled at 2018-10-09 14:34:19.757410+05:30)
+2018-10-09 14:34:19,763:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:36:19.757410+05:30 (in 119.995141 seconds)
+2018-10-09 14:34:19,765:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:20,437:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 14:34:20,437:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 14:34:20 IST)" (scheduled at 2018-10-09 14:34:20.427476+05:30)
+2018-10-09 14:34:20,437:apscheduler.scheduler:Next wakeup is due at 2018-10-09 14:36:20.427476+05:30 (in 119.990292 seconds)
+2018-10-09 14:34:20,440:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:21,346:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 36264
+2018-10-09 14:34:21,726:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:22,365:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 14:34:22,570:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ny-times-washington-post-to-cull-staff-312278.html HTTP/1.1" 200 None
+2018-10-09 14:34:22,680:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ny-times-washington-post-to-cull-staff-312278.html HTTP/1.1" 200 None
+2018-10-09 14:34:22,776:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 14:34:22,911:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 41890
+2018-10-09 14:34:22,929:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:23,375:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:23,569:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:23,836:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28061
+2018-10-09 14:34:23,844:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28061
+2018-10-09 14:34:24,255:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 38038
+2018-10-09 14:34:24,362:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:24,370:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:24,615:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:26,261:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 39222
+2018-10-09 14:34:26,888:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 48603
+2018-10-09 14:34:26,994:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:27,018:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/getting-the-big-blue-ibm-shipping-5000-jobs-to-india-312205.html HTTP/1.1" 200 None
+2018-10-09 14:34:27,194:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 44503
+2018-10-09 14:34:27,297:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:27,343:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:27,459:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/getting-the-big-blue-ibm-shipping-5000-jobs-to-india-312205.html HTTP/1.1" 200 None
+2018-10-09 14:34:27,573:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:27,693:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 48603
+2018-10-09 14:34:27,849:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:28,616:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:29,258:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 45403
+2018-10-09 14:34:29,806:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 44203
+2018-10-09 14:34:29,897:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:31,400:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:31,683:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 41890
+2018-10-09 14:34:32,068:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 44203
+2018-10-09 14:34:32,105:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:32,712:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:32,900:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-lays-off-dozens-of-us-sales-staff-report-638090.html HTTP/1.1" 200 40729
+2018-10-09 14:34:33,152:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ibm-plans-5000-lay-offs-moves-jobs-to-india-312173.html HTTP/1.1" 200 None
+2018-10-09 14:34:33,299:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:33,324:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ibm-plans-5000-lay-offs-moves-jobs-to-india-312173.html HTTP/1.1" 200 None
+2018-10-09 14:34:33,510:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:33,659:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:34,077:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 46763
+2018-10-09 14:34:34,520:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 39222
+2018-10-09 14:34:34,598:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:34,900:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:35,880:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 46763
+2018-10-09 14:34:36,018:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2 HTTP/1.1" 301 257
+2018-10-09 14:34:36,375:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:36,396:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2/ HTTP/1.1" 200 26881
+2018-10-09 14:34:36,746:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:37,008:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/french-hostage-312055.html HTTP/1.1" 200 None
+2018-10-09 14:34:37,014:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/french-hostage-312055.html HTTP/1.1" 200 None
+2018-10-09 14:34:37,315:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47315
+2018-10-09 14:34:37,444:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:37,444:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:37,686:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 45403
+2018-10-09 14:34:37,833:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:38,062:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:39,074:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47649
+2018-10-09 14:34:40,721:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/cisco-to-lay-off-about-1300-employees-490142.html HTTP/1.1" 200 43525
+2018-10-09 14:34:40,823:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:41,059:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:41,602:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-lays-off-dozens-of-us-sales-staff-report-638090.html HTTP/1.1" 200 40729
+2018-10-09 14:34:41,736:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41091
+2018-10-09 14:34:42,052:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:42,225:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:43,440:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/microsoft-seeks-refund-from-some-laid-off-workers-309592.html HTTP/1.1" 200 None
+2018-10-09 14:34:43,468:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/hp-lay-offs-477137.html HTTP/1.1" 200 48789
+2018-10-09 14:34:43,637:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41920
+2018-10-09 14:34:43,965:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:43,995:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:44,425:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:44,479:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2 HTTP/1.1" 301 257
+2018-10-09 14:34:44,563:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/microsoft-seeks-refund-from-some-laid-off-workers-309592.html HTTP/1.1" 200 None
+2018-10-09 14:34:44,875:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2/ HTTP/1.1" 200 26881
+2018-10-09 14:34:45,274:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:45,406:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 42724
+2018-10-09 14:34:46,214:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 14:34:46,218:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:28:55,744:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:28:55,745:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:28:55,745:apscheduler.scheduler:Scheduler started
+2018-10-09 17:28:55,745:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:28:55,746:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:30:55.744698+05:30 (in 119.998527 seconds)
+2018-10-09 17:28:55,757:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 17:28:55,758:werkzeug: * Restarting with stat
+2018-10-09 17:28:56,403:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:28:56,404:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:28:56,404:apscheduler.scheduler:Scheduler started
+2018-10-09 17:28:56,404:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:28:56,404:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:30:56.403750+05:30 (in 119.998918 seconds)
+2018-10-09 17:28:56,418:werkzeug: * Debugger is active!
+2018-10-09 17:28:56,419:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:30:55,745:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:30:55,745:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:30:55 IST)" (scheduled at 2018-10-09 17:30:55.744698+05:30)
+2018-10-09 17:30:55,746:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:32:55.744698+05:30 (in 119.999297 seconds)
+2018-10-09 17:30:55,748:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:32:55 IST)" executed successfully
+2018-10-09 17:30:56,404:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:30:56,407:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:30:56 IST)" (scheduled at 2018-10-09 17:30:56.403750+05:30)
+2018-10-09 17:30:56,410:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:32:56.403750+05:30 (in 119.998281 seconds)
+2018-10-09 17:30:56,414:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:32:56 IST)" executed successfully
+2018-10-09 17:31:38,156:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:31:42,511:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 17:31:43,741:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 27170
+2018-10-09 17:31:44,219:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:31:49,158:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 None
+2018-10-09 17:31:49,584:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:31:53,672:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 None
+2018-10-09 17:31:54,045:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:31:57,871:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 None
+2018-10-09 17:31:58,253:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:04,554:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 None
+2018-10-09 17:32:04,952:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:08,941:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 None
+2018-10-09 17:32:10,539:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:13,921:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 None
+2018-10-09 17:32:14,334:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:18,969:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 None
+2018-10-09 17:32:19,416:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:23,777:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 None
+2018-10-09 17:32:24,159:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:27,673:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 None
+2018-10-09 17:32:28,041:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:32,497:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 None
+2018-10-09 17:32:32,641:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:35,995:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 40879
+2018-10-09 17:32:36,735:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:42,327:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 None
+2018-10-09 17:32:42,690:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:46,430:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 None
+2018-10-09 17:32:46,891:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:52,348:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 None
+2018-10-09 17:32:52,751:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:32:55,747:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:32:55,747:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:32:55 IST)" (scheduled at 2018-10-09 17:32:55.744698+05:30)
+2018-10-09 17:32:55,748:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:34:55.744698+05:30 (in 119.997497 seconds)
+2018-10-09 17:32:55,748:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:34:55 IST)" executed successfully
+2018-10-09 17:32:56,410:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:32:56,412:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:32:56 IST)" (scheduled at 2018-10-09 17:32:56.403750+05:30)
+2018-10-09 17:32:56,414:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:34:56.403750+05:30 (in 119.992494 seconds)
+2018-10-09 17:32:56,417:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:34:56 IST)" executed successfully
+2018-10-09 17:32:56,445:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 None
+2018-10-09 17:32:56,828:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:01,021:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1 HTTP/1.1" 301 257
+2018-10-09 17:33:02,195:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1/ HTTP/1.1" 200 28258
+2018-10-09 17:33:02,635:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:05,354:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 44139
+2018-10-09 17:33:06,143:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:08,527:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 42401
+2018-10-09 17:33:09,217:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:12,735:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47440
+2018-10-09 17:33:13,217:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:15,695:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41826
+2018-10-09 17:33:16,475:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:18,893:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 43013
+2018-10-09 17:33:21,064:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:23,590:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 47998
+2018-10-09 17:33:25,703:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:28,088:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 42581
+2018-10-09 17:33:28,766:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:32,362:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 42806
+2018-10-09 17:33:33,312:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:35,977:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 35648
+2018-10-09 17:33:36,666:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:41,610:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 40879
+2018-10-09 17:33:41,987:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:44,766:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 43658
+2018-10-09 17:33:45,155:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:33:47,443:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 42282
+2018-10-09 17:33:48,116:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:34:55,746:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:34:55,746:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:34:55 IST)" (scheduled at 2018-10-09 17:34:55.744698+05:30)
+2018-10-09 17:34:55,747:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:36:55.744698+05:30 (in 119.998490 seconds)
+2018-10-09 17:34:55,747:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:36:55 IST)" executed successfully
+2018-10-09 17:34:56,409:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:34:56,411:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:34:56 IST)" (scheduled at 2018-10-09 17:34:56.403750+05:30)
+2018-10-09 17:34:56,413:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:36:56.403750+05:30 (in 119.993467 seconds)
+2018-10-09 17:34:56,416:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:36:56 IST)" executed successfully
+2018-10-09 17:36:55,745:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:36:55,746:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:36:55 IST)" (scheduled at 2018-10-09 17:36:55.744698+05:30)
+2018-10-09 17:36:55,747:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:38:55.744698+05:30 (in 119.998639 seconds)
+2018-10-09 17:36:55,747:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:38:55 IST)" executed successfully
+2018-10-09 17:36:56,408:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:36:56,410:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:36:56 IST)" (scheduled at 2018-10-09 17:36:56.403750+05:30)
+2018-10-09 17:36:56,412:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:38:56.403750+05:30 (in 119.994519 seconds)
+2018-10-09 17:36:56,415:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:38:56 IST)" executed successfully
+2018-10-09 17:37:27,758:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 17:37:28,266:werkzeug: * Restarting with stat
+2018-10-09 17:37:29,038:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:37:29,038:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:37:29,038:apscheduler.scheduler:Scheduler started
+2018-10-09 17:37:29,039:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:37:29,039:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:39:29.038145+05:30 (in 119.998372 seconds)
+2018-10-09 17:37:29,052:werkzeug: * Debugger is active!
+2018-10-09 17:37:29,052:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:37:43,606:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:37:43,607:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:37:43,607:apscheduler.scheduler:Scheduler started
+2018-10-09 17:37:43,607:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:37:43,608:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:39:43.606446+05:30 (in 119.998421 seconds)
+2018-10-09 17:37:59,774:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:37:59,774:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:37:59,774:apscheduler.scheduler:Scheduler started
+2018-10-09 17:37:59,775:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:37:59,776:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:39:59.773879+05:30 (in 119.997870 seconds)
+2018-10-09 17:38:32,036:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:38:32,037:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:38:32,037:apscheduler.scheduler:Scheduler started
+2018-10-09 17:38:32,037:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:38:32,038:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:40:32.036547+05:30 (in 119.998425 seconds)
+2018-10-09 17:38:32,051:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 17:38:32,051:werkzeug: * Restarting with stat
+2018-10-09 17:38:32,685:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:38:32,685:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:38:32,685:apscheduler.scheduler:Scheduler started
+2018-10-09 17:38:32,686:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:38:32,686:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:40:32.685355+05:30 (in 119.999071 seconds)
+2018-10-09 17:38:32,698:werkzeug: * Debugger is active!
+2018-10-09 17:38:32,698:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:39:46,845:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 17:39:47,246:werkzeug: * Restarting with stat
+2018-10-09 17:39:47,900:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:39:47,900:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:39:47,901:apscheduler.scheduler:Scheduler started
+2018-10-09 17:39:47,901:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:39:47,901:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:41:47.900297+05:30 (in 119.998897 seconds)
+2018-10-09 17:39:47,913:werkzeug: * Debugger is active!
+2018-10-09 17:39:47,913:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:40:03,969:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:40:03,970:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:40:03,970:apscheduler.scheduler:Scheduler started
+2018-10-09 17:40:03,970:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:40:03,971:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:42:03.969652+05:30 (in 119.998385 seconds)
+2018-10-09 17:40:23,921:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:40:23,921:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:40:23,921:apscheduler.scheduler:Scheduler started
+2018-10-09 17:40:23,922:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:40:23,922:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:42:23.921157+05:30 (in 119.999058 seconds)
+2018-10-09 17:40:23,934:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 17:40:23,935:werkzeug: * Restarting with stat
+2018-10-09 17:40:24,557:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:40:24,557:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:40:24,557:apscheduler.scheduler:Scheduler started
+2018-10-09 17:40:24,558:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:40:24,558:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:42:24.557254+05:30 (in 119.998474 seconds)
+2018-10-09 17:40:24,571:werkzeug: * Debugger is active!
+2018-10-09 17:40:24,572:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:42:23,922:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:42:23,926:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:42:23 IST)" (scheduled at 2018-10-09 17:42:23.921157+05:30)
+2018-10-09 17:42:23,927:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:44:23.921157+05:30 (in 119.997378 seconds)
+2018-10-09 17:42:23,934:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:44:23 IST)" executed successfully
+2018-10-09 17:42:24,557:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:42:24,560:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:42:24 IST)" (scheduled at 2018-10-09 17:42:24.557254+05:30)
+2018-10-09 17:42:24,561:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:44:24.557254+05:30 (in 119.998638 seconds)
+2018-10-09 17:42:24,567:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:44:24 IST)" executed successfully
+2018-10-09 17:44:02,553:werkzeug: * Detected change in '/home/admin/news18_api/run.py', reloading
+2018-10-09 17:44:02,826:werkzeug: * Restarting with stat
+2018-10-09 17:44:26,815:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:44:26,815:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:44:26,815:apscheduler.scheduler:Scheduler started
+2018-10-09 17:44:26,815:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:44:26,816:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:46:26.815007+05:30 (in 119.999024 seconds)
+2018-10-09 17:44:26,828:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 17:44:26,828:werkzeug: * Restarting with stat
+2018-10-09 17:44:27,455:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:44:27,456:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:44:27,456:apscheduler.scheduler:Scheduler started
+2018-10-09 17:44:27,456:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:44:27,456:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:46:27.455600+05:30 (in 119.999049 seconds)
+2018-10-09 17:44:27,469:werkzeug: * Debugger is active!
+2018-10-09 17:44:27,469:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:45:33,187:werkzeug:127.0.0.1 - - [09/Oct/2018 17:45:33] "GET /apidocs/ HTTP/1.1" 200 -
+2018-10-09 17:46:26,815:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:46:26,819:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:46:26 IST)" (scheduled at 2018-10-09 17:46:26.815007+05:30)
+2018-10-09 17:46:26,820:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:48:26.815007+05:30 (in 119.998048 seconds)
+2018-10-09 17:46:26,827:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:48:26 IST)" executed successfully
+2018-10-09 17:46:27,455:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:46:27,456:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:46:27 IST)" (scheduled at 2018-10-09 17:46:27.455600+05:30)
+2018-10-09 17:46:27,457:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:48:27.455600+05:30 (in 119.999490 seconds)
+2018-10-09 17:46:27,458:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:48:27 IST)" executed successfully
+2018-10-09 17:46:51,793:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 17:46:52,127:werkzeug: * Restarting with stat
+2018-10-09 17:46:52,763:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:46:52,763:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:46:52,763:apscheduler.scheduler:Scheduler started
+2018-10-09 17:46:52,763:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:46:52,764:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:48:52.763095+05:30 (in 119.998357 seconds)
+2018-10-09 17:46:52,778:werkzeug: * Debugger is active!
+2018-10-09 17:46:52,778:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:46:56,945:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:46:56,946:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:46:56,946:apscheduler.scheduler:Scheduler started
+2018-10-09 17:46:56,946:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:46:56,947:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:48:56.945521+05:30 (in 119.998346 seconds)
+2018-10-09 17:46:56,958:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 17:46:56,959:werkzeug: * Restarting with stat
+2018-10-09 17:46:57,586:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:46:57,586:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:46:57,586:apscheduler.scheduler:Scheduler started
+2018-10-09 17:46:57,587:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:46:57,587:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:48:57.586225+05:30 (in 119.999026 seconds)
+2018-10-09 17:46:57,599:werkzeug: * Debugger is active!
+2018-10-09 17:46:57,599:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:48:56,946:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:48:56,949:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:48:56 IST)" (scheduled at 2018-10-09 17:48:56.945521+05:30)
+2018-10-09 17:48:56,950:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:50:56.945521+05:30 (in 119.998126 seconds)
+2018-10-09 17:48:56,957:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:50:56 IST)" executed successfully
+2018-10-09 17:48:57,586:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:48:57,588:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:48:57 IST)" (scheduled at 2018-10-09 17:48:57.586225+05:30)
+2018-10-09 17:48:57,589:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:50:57.586225+05:30 (in 119.998967 seconds)
+2018-10-09 17:48:57,594:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:50:57 IST)" executed successfully
+2018-10-09 17:50:56,953:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:50:56,955:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:50:56 IST)" (scheduled at 2018-10-09 17:50:56.945521+05:30)
+2018-10-09 17:50:56,957:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:52:56.945521+05:30 (in 119.991508 seconds)
+2018-10-09 17:50:56,960:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:52:56 IST)" executed successfully
+2018-10-09 17:50:57,591:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:50:57,593:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:50:57 IST)" (scheduled at 2018-10-09 17:50:57.586225+05:30)
+2018-10-09 17:50:57,596:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:52:57.586225+05:30 (in 119.993849 seconds)
+2018-10-09 17:50:57,599:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:52:57 IST)" executed successfully
+2018-10-09 17:52:56,949:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:52:56,951:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:52:56 IST)" (scheduled at 2018-10-09 17:52:56.945521+05:30)
+2018-10-09 17:52:56,953:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:54:56.945521+05:30 (in 119.995247 seconds)
+2018-10-09 17:52:56,956:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:54:56 IST)" executed successfully
+2018-10-09 17:52:57,591:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:52:57,592:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:52:57 IST)" (scheduled at 2018-10-09 17:52:57.586225+05:30)
+2018-10-09 17:52:57,596:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:54:57.586225+05:30 (in 119.994488 seconds)
+2018-10-09 17:52:57,598:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 17:54:57 IST)" executed successfully
+2018-10-09 17:53:40,650:werkzeug: * Detected change in '/home/admin/news18_api/run.py', reloading
+2018-10-09 17:53:41,124:werkzeug: * Restarting with stat
+2018-10-09 17:53:41,756:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:53:41,757:apscheduler.scheduler:Added job "news18_iterator" to job store "default"
+2018-10-09 17:53:41,757:apscheduler.scheduler:Scheduler started
+2018-10-09 17:53:41,757:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:53:41,757:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:55:41.756764+05:30 (in 119.999045 seconds)
+2018-10-09 17:53:41,769:werkzeug: * Debugger is active!
+2018-10-09 17:53:41,769:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:54:18,507:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:54:18,507:apscheduler.scheduler:Added job "news18_iterator" to job store "default"
+2018-10-09 17:54:18,507:apscheduler.scheduler:Scheduler started
+2018-10-09 17:54:18,507:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:54:18,508:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:56:18.506857+05:30 (in 119.998594 seconds)
+2018-10-09 17:54:18,519:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 17:54:18,520:werkzeug: * Restarting with stat
+2018-10-09 17:54:19,135:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:54:19,136:apscheduler.scheduler:Added job "news18_iterator" to job store "default"
+2018-10-09 17:54:19,136:apscheduler.scheduler:Scheduler started
+2018-10-09 17:54:19,136:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:54:19,136:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:56:19.135652+05:30 (in 119.999001 seconds)
+2018-10-09 17:54:19,148:werkzeug: * Debugger is active!
+2018-10-09 17:54:19,148:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 17:56:18,507:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:56:18,511:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 17:56:18 IST)" (scheduled at 2018-10-09 17:56:18.506857+05:30)
+2018-10-09 17:56:18,512:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:58:18.506857+05:30 (in 119.998013 seconds)
+2018-10-09 17:56:18,528:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:19,135:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:56:19,136:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 17:56:19 IST)" (scheduled at 2018-10-09 17:56:19.135652+05:30)
+2018-10-09 17:56:19,136:apscheduler.scheduler:Next wakeup is due at 2018-10-09 17:58:19.135652+05:30 (in 119.999526 seconds)
+2018-10-09 17:56:19,140:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:22,405:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 17:56:23,330:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 17:56:23,536:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28796
+2018-10-09 17:56:23,681:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28796
+2018-10-09 17:56:23,963:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:24,097:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:28,763:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 None
+2018-10-09 17:56:29,530:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:29,778:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 None
+2018-10-09 17:56:32,073:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:34,590:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 None
+2018-10-09 17:56:34,611:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 43684
+2018-10-09 17:56:34,969:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:35,279:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:38,597:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 45649
+2018-10-09 17:56:38,903:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 None
+2018-10-09 17:56:39,269:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:39,269:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:44,212:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 None
+2018-10-09 17:56:44,536:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 None
+2018-10-09 17:56:44,616:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:45,003:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:48,344:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 38017
+2018-10-09 17:56:48,537:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 None
+2018-10-09 17:56:48,988:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:49,599:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:53,753:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 None
+2018-10-09 17:56:53,795:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 None
+2018-10-09 17:56:54,247:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:56:54,249:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:00,095:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 48051
+2018-10-09 17:57:00,098:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 None
+2018-10-09 17:57:01,081:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:01,081:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:04,804:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 None
+2018-10-09 17:57:05,110:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 None
+2018-10-09 17:57:05,179:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:05,674:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:08,654:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 None
+2018-10-09 17:57:08,711:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 None
+2018-10-09 17:57:09,042:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:09,108:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:13,519:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 None
+2018-10-09 17:57:13,528:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 None
+2018-10-09 17:57:14,128:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:14,128:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:17,391:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 40520
+2018-10-09 17:57:17,708:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 None
+2018-10-09 17:57:18,063:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:18,066:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:23,309:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 None
+2018-10-09 17:57:23,519:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 None
+2018-10-09 17:57:23,723:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:23,923:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:27,320:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 38700
+2018-10-09 17:57:27,404:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 None
+2018-10-09 17:57:27,766:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:27,991:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:32,134:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 None
+2018-10-09 17:57:32,602:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:33,054:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 42612
+2018-10-09 17:57:33,677:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:36,432:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 None
+2018-10-09 17:57:36,452:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 None
+2018-10-09 17:57:36,814:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:36,816:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:39,614:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1 HTTP/1.1" 301 257
+2018-10-09 17:57:39,620:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1 HTTP/1.1" 301 257
+2018-10-09 17:57:41,752:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1/ HTTP/1.1" 200 27987
+2018-10-09 17:57:41,758:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-1/ HTTP/1.1" 200 27987
+2018-10-09 17:57:42,142:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:42,144:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:45,573:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 43684
+2018-10-09 17:57:45,616:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 43684
+2018-10-09 17:57:46,225:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:46,237:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:48,885:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 45649
+2018-10-09 17:57:49,353:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:51,377:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 None
+2018-10-09 17:57:51,747:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:52,815:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47508
+2018-10-09 17:57:53,191:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:54,552:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47508
+2018-10-09 17:57:54,938:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:55,887:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 38017
+2018-10-09 17:57:56,352:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:58,136:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/twitter-lay-offs-in-india-to-impact-less-than-20-employees-report-1293804.html HTTP/1.1" 200 41599
+2018-10-09 17:57:58,608:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:57:58,968:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 40700
+2018-10-09 17:57:59,740:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:02,738:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-to-shut-down-skype-office-in-london-lay-off-400-employees-1293405.html HTTP/1.1" 200 40700
+2018-10-09 17:58:03,077:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:03,371:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 48051
+2018-10-09 17:58:03,815:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:05,594:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/ola-shuts-down-taxiforsure-lays-off-at-least-700-people-1282487.html HTTP/1.1" 200 48051
+2018-10-09 17:58:06,036:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:06,326:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 41864
+2018-10-09 17:58:07,012:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:08,169:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/cisco-systems-to-lay-off-about-14000-employees-report-1282330.html HTTP/1.1" 200 41864
+2018-10-09 17:58:08,849:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:09,506:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 42212
+2018-10-09 17:58:09,881:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:12,964:urllib3.connectionpool:https://www.news18.com:443 "GET /news/world/cisco-systems-to-lay-off-about-14000-employees-reports-1282331.html HTTP/1.1" 200 42212
+2018-10-09 17:58:13,299:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 34498
+2018-10-09 17:58:13,317:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:13,703:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:15,657:urllib3.connectionpool:https://www.news18.com:443 "GET /videos/tech/flipkart-staffers-to-face-the-axe-for-underperformance-1276235.html HTTP/1.1" 200 35616
+2018-10-09 17:58:16,067:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 40520
+2018-10-09 17:58:16,457:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:16,730:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:18,514:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:58:18,515:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 17:58:18 IST)" (scheduled at 2018-10-09 17:58:18.506857+05:30)
+2018-10-09 17:58:18,516:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:00:18.506857+05:30 (in 119.992340 seconds)
+2018-10-09 17:58:18,526:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:19,125:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/aol-lays-off-100-employees-most-from-dial-up-business-1174779.html HTTP/1.1" 200 40520
+2018-10-09 17:58:19,137:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:58:19,138:apscheduler.executors.default:Running job "news18_iterator (trigger: interval[0:02:00], next run at: 2018-10-09 17:58:19 IST)" (scheduled at 2018-10-09 17:58:19.135652+05:30)
+2018-10-09 17:58:19,142:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:00:19.135652+05:30 (in 119.997939 seconds)
+2018-10-09 17:58:19,150:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:19,447:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 43481
+2018-10-09 17:58:19,491:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:19,885:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:22,315:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 17:58:22,720:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28796
+2018-10-09 17:58:23,207:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 17:58:23,211:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:23,542:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 38700
+2018-10-09 17:58:23,547:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/ibm-flatly-denies-report-of-laying-off-1-lakh-employees-964127.html HTTP/1.1" 200 43481
+2018-10-09 17:58:23,861:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28796
+2018-10-09 17:58:23,922:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:24,008:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:24,015:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:26,530:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 42711
+2018-10-09 17:58:26,822:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 49083
+2018-10-09 17:58:26,883:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/yahoo-lays-off-hundreds-of-employees-in-india-718808.html HTTP/1.1" 200 38700
+2018-10-09 17:58:26,948:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:27,300:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:27,311:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:27,477:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 None
+2018-10-09 17:58:27,935:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:29,448:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/ibm-lay-offs-668497.html HTTP/1.1" 200 42612
+2018-10-09 17:58:29,990:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 41950
+2018-10-09 17:58:30,000:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 43684
+2018-10-09 17:58:30,121:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:31,984:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:31,984:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:32,245:urllib3.connectionpool:https://www.news18.com:443 "GET /news/tech/microsoft-plans-layoffs-in-sales-force-shake-up-reports-1450777.html HTTP/1.1" 200 43684
+2018-10-09 17:58:32,956:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-to-lay-off-4500-employees-warns-of-big-loss-640312.html HTTP/1.1" 200 41950
+2018-10-09 17:58:32,997:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:33,605:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:34,592:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 45649
+2018-10-09 17:58:34,969:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:35,228:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/it-workers-at-deep-end-in-season-of-lay-offs-without-pay-offs-1419793.html HTTP/1.1" 200 45649
+2018-10-09 17:58:35,613:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-lays-off-dozens-of-us-sales-staff-report-638090.html HTTP/1.1" 200 None
+2018-10-09 17:58:35,919:urllib3.connectionpool:https://www.news18.com:443 "GET /news/india/blackberry-lays-off-dozens-of-us-sales-staff-report-638090.html HTTP/1.1" 200 40787
+2018-10-09 17:58:36,067:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:36,073:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:36,555:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:37,810:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47508
+2018-10-09 17:58:38,204:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:38,438:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/lt-lays-off-14000-employees-during-april-september-1314822.html HTTP/1.1" 200 47508
+2018-10-09 17:58:38,770:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2 HTTP/1.1" 301 257
+2018-10-09 17:58:39,166:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2 HTTP/1.1" 301 257
+2018-10-09 17:58:39,182:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 17:58:39,774:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2/ HTTP/1.1" 200 27480
+2018-10-09 17:58:39,792:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-2/ HTTP/1.1" 200 27480
+2018-10-09 17:59:11,640:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:59:11,640:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:59:11,640:apscheduler.scheduler:Scheduler started
+2018-10-09 17:59:11,641:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:59:11,641:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:01:11.640144+05:30 (in 119.998365 seconds)
+2018-10-09 17:59:37,953:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:59:37,953:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:59:37,953:apscheduler.scheduler:Scheduler started
+2018-10-09 17:59:37,954:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:59:37,954:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:01:37.953142+05:30 (in 119.998984 seconds)
+2018-10-09 17:59:37,967:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 17:59:37,968:werkzeug: * Restarting with stat
+2018-10-09 17:59:38,591:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 17:59:38,591:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 17:59:38,591:apscheduler.scheduler:Scheduler started
+2018-10-09 17:59:38,592:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 17:59:38,592:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:01:38.591159+05:30 (in 119.998415 seconds)
+2018-10-09 17:59:38,604:werkzeug: * Debugger is active!
+2018-10-09 17:59:38,605:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 18:01:37,954:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:01:37,957:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:01:37 IST)" (scheduled at 2018-10-09 18:01:37.953142+05:30)
+2018-10-09 18:01:37,960:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:03:37.953142+05:30 (in 119.997909 seconds)
+2018-10-09 18:01:37,965:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:03:37 IST)" executed successfully
+2018-10-09 18:01:38,591:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:01:38,593:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:01:38 IST)" (scheduled at 2018-10-09 18:01:38.591159+05:30)
+2018-10-09 18:01:38,596:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:03:38.591159+05:30 (in 119.998899 seconds)
+2018-10-09 18:01:38,600:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:03:38 IST)" executed successfully
+2018-10-09 18:03:37,959:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:03:37,960:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:03:37 IST)" (scheduled at 2018-10-09 18:03:37.953142+05:30)
+2018-10-09 18:03:37,962:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:05:37.953142+05:30 (in 119.993266 seconds)
+2018-10-09 18:03:37,966:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:05:37 IST)" executed successfully
+2018-10-09 18:03:38,595:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:03:38,597:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:03:38 IST)" (scheduled at 2018-10-09 18:03:38.591159+05:30)
+2018-10-09 18:03:38,601:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:05:38.591159+05:30 (in 119.994972 seconds)
+2018-10-09 18:03:38,602:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:05:38 IST)" executed successfully
+2018-10-09 18:05:37,958:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:05:37,960:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:05:37 IST)" (scheduled at 2018-10-09 18:05:37.953142+05:30)
+2018-10-09 18:05:37,963:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:07:37.953142+05:30 (in 119.994169 seconds)
+2018-10-09 18:05:37,967:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:07:37 IST)" executed successfully
+2018-10-09 18:05:38,597:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:05:38,599:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:05:38 IST)" (scheduled at 2018-10-09 18:05:38.591159+05:30)
+2018-10-09 18:05:38,603:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:07:38.591159+05:30 (in 119.993468 seconds)
+2018-10-09 18:05:38,604:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:07:38 IST)" executed successfully
+2018-10-09 18:06:47,191:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 18:06:47,676:werkzeug: * Restarting with stat
+2018-10-09 18:06:48,292:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 18:06:48,293:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 18:06:48,293:apscheduler.scheduler:Scheduler started
+2018-10-09 18:06:48,293:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:06:48,294:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:08:48.292481+05:30 (in 119.998356 seconds)
+2018-10-09 18:06:48,305:werkzeug: * Debugger is active!
+2018-10-09 18:06:48,305:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 18:06:55,137:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 18:06:55,137:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 18:06:55,137:apscheduler.scheduler:Scheduler started
+2018-10-09 18:06:55,137:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:06:55,138:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:08:55.137008+05:30 (in 119.998242 seconds)
+2018-10-09 18:06:55,151:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 18:06:55,151:werkzeug: * Restarting with stat
+2018-10-09 18:06:55,804:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 18:06:55,804:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 18:06:55,804:apscheduler.scheduler:Scheduler started
+2018-10-09 18:06:55,805:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:06:55,806:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:08:55.804377+05:30 (in 119.998422 seconds)
+2018-10-09 18:06:55,816:werkzeug: * Debugger is active!
+2018-10-09 18:06:55,817:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 18:08:55,138:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:08:55,141:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:08:55 IST)" (scheduled at 2018-10-09 18:08:55.137008+05:30)
+2018-10-09 18:08:55,144:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:10:55.137008+05:30 (in 119.997818 seconds)
+2018-10-09 18:08:55,805:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:08:55,807:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:08:55 IST)" (scheduled at 2018-10-09 18:08:55.804377+05:30)
+2018-10-09 18:08:55,808:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:10:55.804377+05:30 (in 119.998332 seconds)
+2018-10-09 18:08:57,152:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:10:55 IST)" executed successfully
+2018-10-09 18:08:57,817:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:10:55 IST)" executed successfully
+2018-10-09 18:10:00,704:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 18:10:00,704:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 18:10:00,704:apscheduler.scheduler:Scheduler started
+2018-10-09 18:10:00,704:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:10:00,705:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:12:00.703696+05:30 (in 119.998405 seconds)
+2018-10-09 18:11:00,486:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 18:11:00,487:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 18:11:00,487:apscheduler.scheduler:Scheduler started
+2018-10-09 18:11:00,487:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:11:00,487:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:13:00.486563+05:30 (in 119.999031 seconds)
+2018-10-09 18:11:30,663:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 18:11:30,664:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 18:11:30,664:apscheduler.scheduler:Scheduler started
+2018-10-09 18:11:30,664:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:11:30,664:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:13:30.663533+05:30 (in 119.999070 seconds)
+2018-10-09 18:11:30,676:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 18:11:30,677:werkzeug: * Restarting with stat
+2018-10-09 18:11:31,298:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 18:11:31,298:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 18:11:31,298:apscheduler.scheduler:Scheduler started
+2018-10-09 18:11:31,299:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:11:31,299:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:13:31.298104+05:30 (in 119.998913 seconds)
+2018-10-09 18:11:31,310:werkzeug: * Debugger is active!
+2018-10-09 18:11:31,311:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 18:13:30,664:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:13:30,667:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:13:30 IST)" (scheduled at 2018-10-09 18:13:30.663533+05:30)
+2018-10-09 18:13:30,669:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:15:30.663533+05:30 (in 119.997939 seconds)
+2018-10-09 18:13:30,726:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:15:30 IST)" executed successfully
+2018-10-09 18:13:31,298:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:13:31,299:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:13:31 IST)" (scheduled at 2018-10-09 18:13:31.298104+05:30)
+2018-10-09 18:13:31,300:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:15:31.298104+05:30 (in 119.999296 seconds)
+2018-10-09 18:13:31,327:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:15:31 IST)" executed successfully
+2018-10-09 18:15:30,671:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:15:30,673:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:15:30 IST)" (scheduled at 2018-10-09 18:15:30.663533+05:30)
+2018-10-09 18:15:30,675:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:17:30.663533+05:30 (in 119.991460 seconds)
+2018-10-09 18:15:30,706:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:17:30 IST)" executed successfully
+2018-10-09 18:15:31,300:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:15:31,302:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:15:31 IST)" (scheduled at 2018-10-09 18:15:31.298104+05:30)
+2018-10-09 18:15:31,303:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:17:31.298104+05:30 (in 119.996943 seconds)
+2018-10-09 18:15:31,341:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:17:31 IST)" executed successfully
+2018-10-09 18:17:30,668:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:17:30,670:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:17:30 IST)" (scheduled at 2018-10-09 18:17:30.663533+05:30)
+2018-10-09 18:17:30,672:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:19:30.663533+05:30 (in 119.994683 seconds)
+2018-10-09 18:17:30,718:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:19:30 IST)" executed successfully
+2018-10-09 18:17:31,304:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:17:31,306:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:17:31 IST)" (scheduled at 2018-10-09 18:17:31.298104+05:30)
+2018-10-09 18:17:31,307:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:19:31.298104+05:30 (in 119.993143 seconds)
+2018-10-09 18:17:31,346:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:19:31 IST)" executed successfully
+2018-10-09 18:19:30,667:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:19:30,668:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:19:30 IST)" (scheduled at 2018-10-09 18:19:30.663533+05:30)
+2018-10-09 18:19:30,669:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:21:30.663533+05:30 (in 119.995412 seconds)
+2018-10-09 18:19:30,680:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:21:30 IST)" executed successfully
+2018-10-09 18:19:31,303:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:19:31,305:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:19:31 IST)" (scheduled at 2018-10-09 18:19:31.298104+05:30)
+2018-10-09 18:19:31,308:apscheduler.scheduler:Next wakeup is due at 2018-10-09 18:21:31.298104+05:30 (in 119.994136 seconds)
+2018-10-09 18:19:31,342:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 18:21:31 IST)" executed successfully
+2018-10-09 18:59:44,432:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 18:59:44,454:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 18:59:44,454:apscheduler.scheduler:Scheduler started
+2018-10-09 18:59:44,455:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 18:59:44,455:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:01:44.432186+05:30 (in 119.976952 seconds)
+2018-10-09 19:00:25,869:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 19:00:25,869:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 19:00:25,870:apscheduler.scheduler:Scheduler started
+2018-10-09 19:00:25,870:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 19:00:25,871:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:02:25.869365+05:30 (in 119.998392 seconds)
+2018-10-09 19:00:25,884:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-10-09 19:00:25,885:werkzeug: * Restarting with stat
+2018-10-09 19:00:26,492:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 19:00:26,492:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 19:00:26,492:apscheduler.scheduler:Scheduler started
+2018-10-09 19:00:26,492:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 19:00:26,493:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:02:26.491859+05:30 (in 119.998508 seconds)
+2018-10-09 19:00:26,504:werkzeug: * Debugger is active!
+2018-10-09 19:00:26,505:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 19:00:38,760:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 19:00:39,018:werkzeug: * Restarting with stat
+2018-10-09 19:00:39,654:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 19:00:39,654:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 19:00:39,654:apscheduler.scheduler:Scheduler started
+2018-10-09 19:00:39,655:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 19:00:39,655:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:02:39.654255+05:30 (in 119.999023 seconds)
+2018-10-09 19:00:39,667:werkzeug: * Debugger is active!
+2018-10-09 19:00:39,667:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 19:00:45,791:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 19:00:46,112:werkzeug: * Restarting with stat
+2018-10-09 19:00:46,747:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 19:00:46,747:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 19:00:46,747:apscheduler.scheduler:Scheduler started
+2018-10-09 19:00:46,747:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 19:00:46,748:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:02:46.746847+05:30 (in 119.998121 seconds)
+2018-10-09 19:00:46,760:werkzeug: * Debugger is active!
+2018-10-09 19:00:46,760:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 19:00:51,906:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 19:00:52,187:werkzeug: * Restarting with stat
+2018-10-09 19:00:52,887:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 19:00:52,888:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 19:00:52,888:apscheduler.scheduler:Scheduler started
+2018-10-09 19:00:52,888:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 19:00:52,888:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:02:52.887727+05:30 (in 119.999015 seconds)
+2018-10-09 19:00:52,900:werkzeug: * Debugger is active!
+2018-10-09 19:00:52,901:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 19:00:53,935:werkzeug: * Detected change in '/home/admin/news18_api/news18/jobs.py', reloading
+2018-10-09 19:00:54,342:werkzeug: * Restarting with stat
+2018-10-09 19:00:54,970:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-10-09 19:00:54,971:apscheduler.scheduler:Added job "news18_jobs" to job store "default"
+2018-10-09 19:00:54,971:apscheduler.scheduler:Scheduler started
+2018-10-09 19:00:54,971:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 19:00:54,971:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:02:54.970524+05:30 (in 119.999048 seconds)
+2018-10-09 19:00:54,984:werkzeug: * Debugger is active!
+2018-10-09 19:00:54,984:werkzeug: * Debugger PIN: 295-551-122
+2018-10-09 19:02:25,870:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 19:02:25,875:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 19:02:25 IST)" (scheduled at 2018-10-09 19:02:25.869365+05:30)
+2018-10-09 19:02:25,880:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:04:25.869365+05:30 (in 119.997482 seconds)
+2018-10-09 19:02:25,888:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 19:04:25 IST)" executed successfully
+2018-10-09 19:02:26,437:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 19:02:26,697:werkzeug: * Detected change in '/home/admin/news18_api/news18/__init__.py', reloading
+2018-10-09 19:02:27,069:werkzeug: * Restarting with stat
+2018-10-09 19:02:29,282:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0 HTTP/1.1" 301 257
+2018-10-09 19:02:31,843:urllib3.connectionpool:https://www.news18.com:443 "GET /newstopics/lay-off/page-0/ HTTP/1.1" 200 28039
+2018-10-09 19:02:32,353:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 19:02:35,945:urllib3.connectionpool:https://www.news18.com:443 "GET /news/business/jet-airways-staff-group-flags-concerns-seeks-clarity-on-airline-problems-1857333.html HTTP/1.1" 200 None
+2018-10-09 19:02:36,730:urllib3.connectionpool:Starting new HTTPS connection (1): www.news18.com
+2018-10-09 19:04:25,881:apscheduler.scheduler:Looking for jobs to run
+2018-10-09 19:04:25,883:apscheduler.executors.default:Running job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 19:04:25 IST)" (scheduled at 2018-10-09 19:04:25.869365+05:30)
+2018-10-09 19:04:25,885:apscheduler.scheduler:Next wakeup is due at 2018-10-09 19:06:25.869365+05:30 (in 119.987372 seconds)
+2018-10-09 19:04:25,887:apscheduler.executors.default:Job "news18_jobs (trigger: interval[0:02:00], next run at: 2018-10-09 19:06:25 IST)" executed successfully
+2018-10-09 19:15:05,132:news18:Error in the iterator function of news18 page4 :'total_pages'
+2018-10-09 19:15:05,134:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (e245d4d6-4ec8-44ae-b367-aee0e0019e80)
+2018-10-09 19:15:05,134:rq.worker:Result is kept for 500 seconds
+2018-10-09 19:22:14,982:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (829aacea-0ed0-481f-afce-8a7929103948)
+2018-10-09 19:22:14,983:rq.worker:Result is kept for 500 seconds
+2018-10-10 11:43:10,499:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (b399743f-a2a3-46db-b87f-d896c111cfc7)
+2018-10-10 11:43:10,534:rq.worker:Result is kept for 500 seconds
+2018-10-10 17:44:41,832:news18:Iterator function failed for news18 'total_pages'
+2018-10-10 17:44:41,838:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (c198c283-9e76-4014-af73-83c93c0c8818)
+2018-10-10 17:44:41,838:rq.worker:Result is kept for 500 seconds
+2018-10-10 17:44:57,713:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (5b380a9d-aea1-43b4-b000-09f5956e3b62)
+2018-10-10 17:44:57,713:rq.worker:Result is kept for 500 seconds
+2018-10-10 17:45:38,967:news18:Iterator function failed for news18 unhashable type: 'dict'
+2018-10-10 17:45:38,968:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (2965549c-e55a-44a7-a017-682019566d27)
+2018-10-10 17:45:38,969:rq.worker:Result is kept for 500 seconds
+2018-10-10 17:45:55,606:news18:Iterator function failed for news18 unhashable type: 'dict'
+2018-10-10 17:45:55,608:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (4e31e144-9c5f-4bdc-a75b-5957c6b23b84)
+2018-10-10 17:45:55,608:rq.worker:Result is kept for 500 seconds
+2018-10-10 17:46:32,261:news18:Iterator function failed for news18 unhashable type: 'dict'
+2018-10-10 17:46:32,262:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (6cfb696a-e23f-4c8a-bc86-c8cf5d547e46)
+2018-10-10 17:46:32,263:rq.worker:Result is kept for 500 seconds
+2018-10-10 17:46:49,052:news18:Iterator function failed for news18 unhashable type: 'dict'
+2018-10-10 17:46:49,054:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (c2d2bd93-c6a9-425f-9489-d15e4ed9587a)
+2018-10-10 17:46:49,054:rq.worker:Result is kept for 500 seconds
+2018-10-10 17:48:28,900:news18:Iterator function failed for news18 unhashable type: 'dict'
+2018-10-10 17:48:28,901:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (72f7e678-28ce-47cf-a1eb-33c79d32f29c)
+2018-10-10 17:48:28,901:rq.worker:Result is kept for 500 seconds
+2018-10-10 17:48:34,225:news18:Iterator function failed for news18 unhashable type: 'dict'
+2018-10-10 17:48:34,226:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (c17b4691-f6cc-40b1-835c-6951d48056c7)
+2018-10-10 17:48:34,226:rq.worker:Result is kept for 500 seconds
+2018-10-11 11:36:46,549:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (56dfde8c-2187-42b7-877a-b50947484f0c)
+2018-10-11 11:36:46,588:rq.worker:Result is kept for 500 seconds
+2018-10-11 11:36:47,485:rq.worker:[32mnews18[39;49;00m: [34mJob OK[39;49;00m (c80fb445-3c7b-4702-bb62-dffad4865b65)
+2018-10-11 11:36:47,485:rq.worker:Result is kept for 500 seconds

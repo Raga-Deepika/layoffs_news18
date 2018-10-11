@@ -56,20 +56,21 @@ def news18(page=0):
             logger.warning('request to news18 connector {0} failed: {1}'.format(base_url, str(e)))
             return news18Dict
         if req.status_code == 200:
+            news18Dict['data'] = []
             soup = bs(req.content, 'lxml')
-            data = []
             try:
                 unwanted = soup.find('li',class_='next')
                 unwanted.extract()
                 total_pages = soup.find('div',class_='pagination').find_all('li')[-1].text.strip()
-            except IndexError:
+            except Exception as e:
+                logger.warning('Error with finding the total pages {0} of page {1}'.format(str(e), page))
                 total_pages = 1
             news18Dict['total_pages'] = total_pages
             try:
                 cards = soup.find_all('li', style='float:none;')
             except Exception as e:
                 cards = []
-                data = []
+                return news18Dict
             for item in cards:
                 news18Dict['success'] = True
                 try:
@@ -78,12 +79,14 @@ def news18(page=0):
                     titles = None
                 try:
                     snippet = item.p.find('a').text.strip()
+                    if snippet is '':
+                        snippet = None
                 except AttributeError:
                     snippet = None
                 try:
                     date = item.find({'span', 'a'}, class_='post-date').contents[-1].strip()
                     posted_at = parse(date)
-                except IndexError:
+                except (IndexError,AttributeError):
                     date = None
                 try:
                     url = item.h2.a.get('href')
@@ -91,9 +94,10 @@ def news18(page=0):
                     url = None
                 try:
                     req1 = proxied_request(url)
+                    soup1 = bs(req1.content, 'lxml')
+                    logger.info('request to the content url {0} of news18 connector is successful'.format(url))
                 except Exception as e:
                     logger.warning('request to the content url {0} of news18 connector failed : {1}'.format(url,str(e)))
-                soup1 = bs(req1.content, 'lxml')
                 try:
                     article_body = soup1.find('div', id='article_body')
                     articles = article_body.text.split(
@@ -101,7 +105,8 @@ def news18(page=0):
                         '<div id="web728x90_ROS" align="center" style="margin-bottom:20px;"></div>')[0].split(
                         '@media only screen and (max-width:740px)')[0].strip()
                     article = re.sub(r'[\n\r\t]', '', articles)
-                except AttributeError:
+                except Exception as e:
+                    logger.warning('Error with content part of the url {0}: {1}'.format(url,str(e)))
                     article = None
                 obj = {}
                 obj['title'] = titles
@@ -109,18 +114,13 @@ def news18(page=0):
                 obj['url'] = url
                 if 'videos' in url:
                     obj['content'] = None
-                elif 'photogallery' in url:
-                    obj['snippet'] = None
-                    obj['content'] = article
                 else:
                     obj['content'] = article
                 obj['date'] = posted_at
                 obj['category'] = 'Layoffs'
                 obj['source'] = 'news18'
-                data.append(obj)
-            news18Dict['data'] = data
+                news18Dict['data'].append(obj)
             return news18Dict
-
     except Exception as e:
         logger.error('Error in scraping page {0} of the news18 connector : {1}'.format(page, str(e)))
         return None

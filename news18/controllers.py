@@ -2,10 +2,10 @@ from flask import Blueprint, jsonify
 from flask import request
 from news18.base import news18
 from news18 import logger
-news18_blueprint = Blueprint('news18', __name__)
+news18blueprint = Blueprint('news18', __name__)
 
 
-@news18_blueprint.route('/get_news')
+@news18blueprint.route('/get_news')
 def news18_api():
     """
         This is the summary defined in yaml file

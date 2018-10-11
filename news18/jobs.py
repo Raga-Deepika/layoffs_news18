@@ -12,7 +12,7 @@ q = Queue('news18',connection=redis_conn, default_timeout=3600)
 
 
 def news18_iterator():
-    col = db.news18
+    col = db.news19
     try:
         page = 0
         resp = news18(page=str(page))
