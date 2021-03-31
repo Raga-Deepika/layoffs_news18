@@ -9,7 +9,7 @@ flasgger==0.8.3
 idna==2.6
 itsdangerous==0.24
 Jinja2==2.10
-lxml==4.2.1
+lxml==4.6.3
 MarkupSafe==1.0
 post==1.0.2
 public==1.0.3
